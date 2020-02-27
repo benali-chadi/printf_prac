@@ -17,6 +17,7 @@ int check;
 va_list ap;
 t_flags flags;
 
+int     ft_printf(const char *s, ...);
 void    init_flags();
 void    ft_putchar(char c);
 int     ft_strlen(char *s);

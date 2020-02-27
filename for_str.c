@@ -8,6 +8,8 @@ void    print_str()
     int     i;
 
     str = va_arg(ap, char*);
+    if (!str)
+        str = "(null)";
     preci = (flags.p && flags.prec < ft_strlen(str)) ? flags.prec : ft_strlen(str);
     spaces = flags.width - preci;
     i = 0;
