@@ -29,7 +29,7 @@ int     num(int n)
     int i;
 
     i = 0;
-    if (n <= 0)
+    if (n == 0)
         i++;
     while (n != 0)
     {

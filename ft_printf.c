@@ -54,11 +54,11 @@ int		ft_printf(const char *s, ...)
 	return (g_count);
 }
 
-int		main(void)
-{
-	int i = printf("%4.3d\n", 1);
-	int j = ft_printf("%4.3d\n", 1);
+// int		main(void)
+// {
+// 	int i = printf("%.5d\n", -100);
+// 	int j = ft_printf("%.5d\n", -100);
 
-	printf("i = %d\tj = %d\n", i, j);
-	return (0);
-}
+// 	printf("i = %d\tj = %d\n", i, j);
+// 	return (0);
+// }
